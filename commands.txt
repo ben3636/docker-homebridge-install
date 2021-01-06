@@ -1,0 +1,2 @@
+docker volume create shadowsave
+docker run --name=homebridge --restart=always --net=host -d -v shadowsave:/homebridge -e HOMEBRIDGE_CONFIG_UI=1 -e HOMEBRIDGE_INSECURE=1 oznu/homebridge
