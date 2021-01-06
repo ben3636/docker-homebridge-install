@@ -1,0 +1,28 @@
+{
+    "bridge": {
+        "name": "Shadow_Bridge",
+        "username": "CC:22:3D:E3:CE:39",
+        "port": 51826,
+        "pin": "031-45-159"
+    },
+    "platforms": [
+        {
+            "platform": "EcoPlug",
+            "name": "EcoPlug",
+            "port": "80"
+        },
+        {
+            "name": "Config",
+            "port": 8080,
+            "auth": "none",
+            "theme": "blue-grey",
+            "tempUnits": "f",
+            "platform": "config"
+        },
+        {
+            "platform": "yeelight",
+            "name": "yeelight"
+        }
+    ],
+    "accessories": []
+}
